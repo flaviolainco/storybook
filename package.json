@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=f5cb43c52db8"
   },
   "eslintConfig": {
     "extends": [
@@ -79,7 +80,19 @@
   },
   "description": "Storybook testing lib",
   "main": "dist/index.js",
-  "repository": "https://github.com/flaviolainco/storybook.git",
-  "author": "flaviolainco <flavio.alfaro@laincosoftware.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviolainco/storybook.git"
+  },
+  "author": {
+    "name": "flaviolainco",
+    "email": "flavio.alfaro@laincosoftware.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flaviolainco/storybook/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/flaviolainco/storybook#readme",
+  "_id": "@flavio.alfaro.lainco/storybook-test@0.1.0"
 }

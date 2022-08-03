@@ -123,6 +123,10 @@ export function Avatar({ loading, username, src, size, ...props }) {
   );
 }
 
+/**
+ * test
+ */
+
 Avatar.propTypes = {
   loading: PropTypes.bool,
   username: PropTypes.string,
