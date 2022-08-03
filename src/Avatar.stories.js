@@ -28,6 +28,9 @@ export const Sizes = (args) => (
     <Avatar {...args} size="tiny" />
   </div>
 );
+/** 
+ - Comment
+**/
 Sizes.args = {
   username: "Tom Coleman",
   src: "https://avatars2.githubusercontent.com/u/132554",
